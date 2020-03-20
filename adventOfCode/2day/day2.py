@@ -37,7 +37,6 @@ def noun_and_verb(pairs_collection, lst):
 	'''
 	Noun and verb values are between 0 - 99.
 	'''
-	counter = 1
 	outputs = []
 	print('Patience, my friend...')
 	for pair in pairs_collection:
@@ -50,7 +49,6 @@ def noun_and_verb(pairs_collection, lst):
 			print('Appending...')
 			outputs.append((pair, result[0]))
 			break
-		counter += 1
 	return outputs
 
 
